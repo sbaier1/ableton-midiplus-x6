@@ -3,7 +3,7 @@
 set -eo pipefail
 
 if ! which pip >/dev/null 2>/dev/null; then
-  echo "pip not found, attemping to install, admin privileges required"
+  echo "pip not found, attempting to install, admin privileges required"
   sudo -H python -m ensurepip
 fi
 

@@ -12,6 +12,6 @@ This is an initial effort for writing a remote script for the MIDIPlus X6 MIDI k
 
 To get started on developing this script further (contributions welcome), or for developing your own Live remote scripts, you should set up a makeshift development environment first. Here's how i do it:
 
-1. Decompile the remote script framework and other scripts for reference using either the [decompile script](dev/decompile.sh), which should work on any system with a bash and python installed or manually using [uncompyle6](https://pypi.org/project/uncompyle6/) and a terminal of your choice.
+1. Decompile the remote script framework and other scripts for reference using either the [decompile script](dev/decompile.sh) if you are running macOS or manually using [uncompyle6](https://pypi.org/project/uncompyle6/) and a terminal of your choice.
 
 2. For editing, i personally use Visual Studio Code with the Python plugin and set my working directory to the `MIDI Remote Scripts` folder. This leads to most of the syntax highlighting working correctly, safe for the "Live" module, which corresponds to the latest remote script version. There should be a way to create a dirty workaround to fix this as well though. (maybe symlink the current version somehow)
